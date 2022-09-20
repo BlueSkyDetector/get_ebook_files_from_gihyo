@@ -36,6 +36,19 @@ password = SET_PASS_HERE
 
 ## Run
 
+[Command options]
+
+```
+usage: get_ebook_files_from_gihyo.py [-h] [-c CONF] [-s] -d DOWNLOAD_DIRECTORY [-t TITLE_OF_EBOOKS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONF, --conf CONF  conf file path (default: /path/to/the/script/dir/get_ebook_files_from_gihyo.conf)
+  -s, --show_browser
+  -d DOWNLOAD_DIRECTORY, --download_directory DOWNLOAD_DIRECTORY
+  -t TITLE_OF_EBOOKS, --title_of_ebooks TITLE_OF_EBOOKS
+                        title of ebooks in regular expression (for example: "Software Design .*月号")
+```
 
 [Example commands]
 
