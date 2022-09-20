@@ -3,6 +3,12 @@
 This is a script for downloading ebook files (epub, pdf) you bought from Gihyo Digital Publishing.  
 By calling it from cron, for example, if you bought monthly magazine subscription, you can read the latest magazines from local disk without downloading manually.
 
+## Requirements
+
+### Python version
+
+- Python >= 3.7
+
 ## Install
 
 Install playwright
